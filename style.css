@@ -1,0 +1,75 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4; 
+    color: #333; 
+}
+
+#loginForm {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e6e6e6; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+#loginForm label {
+    display: block;
+    margin-top: 10px;
+    color: #333; 
+}
+
+#loginForm input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+#loginForm button,
+#logout {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #fff; 
+}
+
+#loginForm button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+#failed {
+    color: red;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#logout {
+    width: 20%;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 80%;
+}
+
+#main {
+    background-color: #f4f4f4; 
+    color: #333; 
+    margin: 0 auto;
+}
+
+#chartContainer1 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#chartContainer2 {
+    width: 40%;
+    margin: 0 auto;
+}

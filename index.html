@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>GraphQL</title>
+</head>
+<body>
+    <form id="loginForm">
+        <h1>Login</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <br>
+        <button type="submit">Login</button>
+        <p id="failed"></p>
+    </form>
+    <div id="main">
+        <div id="chartContainer1" class="chart"></div>
+        <div id="chartContainer2" class="chart"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
